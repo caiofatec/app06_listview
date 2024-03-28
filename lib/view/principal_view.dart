@@ -39,7 +39,7 @@ class _PrincipalViewState extends State<PrincipalView> {
               title: Text(dados[index].nome),
               subtitle: Text(
                 dados[index].email,
-                style: TextStyle(color: Colors.grey),
+                style: TextStyle(color: Colors.blue),
               ),
             ),
           ),
